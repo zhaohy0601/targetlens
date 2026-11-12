@@ -1,0 +1,19 @@
+{
+  "target": {
+    "target_id": "example:target-001",
+    "name": "Example kinase target",
+    "organism": "Homo sapiens",
+    "structure_ref": "example://structure/target-001",
+    "structure_kind": "predicted"
+  },
+  "molecules": [
+    {
+      "molecule_id": "example:mol-001",
+      "smiles": "CCO",
+      "source": "public-example",
+      "generation_method": "hand-authored fixture"
+    }
+  ],
+  "objective": "prioritize candidates for a protein target"
+}
+
